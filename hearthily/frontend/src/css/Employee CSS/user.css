@@ -1,0 +1,176 @@
+.emp-users-container {
+  margin-right: 10%;
+  padding: 32px;
+  width: 100%;
+  font-family: "Poppins-Medium", Helvetica ;
+  align-items: start;
+
+}
+
+.emp-users-content {
+  margin-top: 16px;
+  
+}
+
+.emp-search-bar input {
+  padding: 10px 24px;
+  border-radius: 8px;
+  border: 1px solid rgba(244, 244, 244, 0.5);
+  background-color: var(--bg-200);
+  width: 50px;
+  
+}
+
+.emp-users-content h1 {
+  font-weight: 600;
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+
+.emp-add-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+  margin-top: 10px;
+  margin-left:  40%;
+}
+
+.emp-add-button button {
+  text-decoration: none;
+  font-size: 12px;
+  font-family: "Poppins-Medium", Helvetica ;
+  font-weight: 100;
+  padding: 8px 13px;
+  background-color: var(--orange-200);
+  border-radius: 8px;
+  margin-left: 10px;
+  color: var(--white-100);
+  border: none;
+  cursor: pointer;
+  
+}
+
+
+.emp-table {
+  width: 80%;
+  border-collapse: collapse;
+  margin-bottom: 16px;
+  overflow-x: auto; /* Enable horizontal scrolling */
+}
+
+.emp-table th, .emp-table td {
+  border: 1px solid rgba(244, 244, 244, 0.5);
+  padding: 12px;
+  text-align: left;
+}
+
+.emp-table th {
+  background-color: var(--bg-200);
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.emp-table td {
+  font-size: 14px;
+}
+
+
+
+.emp-bottom-buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.emp-qr-code {
+  margin-top: 16px;
+}
+
+.emp-qr-code p {
+  margin-bottom: 8px;
+}
+
+.emp-qr-code img {
+  width: 200px;
+  height: auto;
+}
+
+.leave-button {
+  margin-top: 16px;
+}
+
+
+.leave-button button {
+  background-color: #FF5733;
+  
+  
+}
+
+.emp-add-button a {
+
+  text-decoration: none;
+  color: var(--orange-200);
+  font-weight: 600;
+  
+}
+
+.emp-add-button a:hover {
+  text-decoration: underline;
+}
+
+.hh h1{
+  color: aliceblue;
+  text-align: center;
+  font-size: 50px;
+
+  
+}
+.leave-button{
+  margin-right: 15px;
+  background-color: #FF5733;
+  text-decoration: none;
+  font-size: 12px;
+  font-family: "Poppins-Medium", Helvetica ;
+  font-weight: 100;
+  padding: 5px 10px;
+  border-radius: 8px;
+  color: aliceblue;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-left:2px;
+}
+
+.button{
+  color: #FF5733;
+  
+}
+.edit-button{
+  background-color: aquamarine;
+  text-decoration: none;
+  font-size: 12px;
+  font-family: "Poppins-Medium", Helvetica ;
+  font-weight: 100;
+  padding: 5px 10px;
+  border-radius: 8px;
+  color: black;
+  border: none;
+  cursor: pointer;
+  
+}
+.delete-button{
+  background-color: bisque;
+  text-decoration: none;
+  font-size: 12px;
+  font-family: "Poppins-Medium", Helvetica ;
+  font-weight: 100;
+  padding: 5px 10px;
+  border-radius: 8px;
+  color: black;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-left:1px;
+}
